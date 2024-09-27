@@ -1,3 +1,5 @@
-const function =(users$:Observable<interface[]>):Observable<string[]>=>{
-    return users$.pipe(map(users=>(user.map=>(u.name))))
+const check = (users$:Observable<userInterface>):Observable<UserInterface>=>{
+    return users$.pipe((map(users)=>{
+        user.map(u=>{u.name})
+    }))
 }
